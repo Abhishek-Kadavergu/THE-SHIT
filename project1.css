@@ -163,3 +163,6 @@ a:hover{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Optional: Add a shadow for better visibility */
   }
   
+#quotefont {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
