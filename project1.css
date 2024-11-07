@@ -1,0 +1,165 @@
+.c-item {
+    height: 50%;
+    width: 100%;
+}
+
+.c-img {
+    height: 50%;
+    width: 50%;
+    max-height: 800px;
+    filter: brightness(0.7);
+}
+
+body {
+    height: 200vh;
+    scroll-behavior: smooth;
+}
+
+.quote {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .9rem;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid white;
+}
+
+.logoxx {
+    height: 40px;
+    width: 40px;
+}
+
+.folks {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: black;
+    color: rgb(37, 171, 13);
+}
+
+.the-folks {
+    font-size: 3rem;
+}
+
+.insta {
+    width: 15px;
+    height: 15px;
+    filter: brightness(.3);
+
+}
+
+a:visited {
+    color: #6c6666;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.faq-container {
+    max-width: 100%;
+    margin-left: 38%;
+    color: white;
+}
+
+.faq-heading {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .faq-container > .col-12 {
+      margin-left: 10px !important;
+    }
+}
+
+#carouselExample {
+    height: 800px;
+  }
+  
+  #carouselExample .carousel-item img {
+    height: 800px;
+    object-fit: cover;
+  }
+  
+.shit-text {
+    padding-left: 1.5rem;
+    
+}
+
+.navbar-brand.shit-text {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.navbar-nav .nav-link {
+    color: #00acee;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    min-height: 800px; /* Set the height of the images */
+    object-fit: cover; /* Ensures the image covers the container area while maintaining aspect ratio */
+    width: 100%; /* Makes the image responsive */
+  }
+
+  /* Ensure the carousel is responsive on smaller screens */
+  @media (max-width: 1500px) {
+    .carousel-item img {
+      min-height: 700px; /* Reduce height on smaller screens */
+    }
+  }
+  @media (max-width: 900px) {
+    .carousel-item img {
+      min-height: 600px; /* Reduce height on smaller screens */
+    }
+  }
+  @media (max-width: 1100px) {
+    .carousel-item img {
+      min-height: 500px; /* Reduce height on smaller screens */
+    }
+  }
+  @media (max-width: 768px) {
+    .carousel-item img {
+      min-height: 400px; /* Reduce height on smaller screens */
+    }
+  }
+  @media (max-width: 620px) {
+    .carousel-item img {
+      min-height: 300px; /* Reduce height on smaller screens */
+    }
+  }
+  @media (max-width: 520px) {
+    .carousel-item img {
+      min-height: 200px; /* Reduce height on smaller screens */
+    }
+  }
+  @media (max-width: 400px) {
+    .carousel-item img {
+      min-height: 100px; /* Reduce height on smaller screens */
+    }
+  }
+  
+ 
+
+  .custom-caption {
+    position: absolute;
+    top: 10px;  /* Adjust this value to place the text closer or farther from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;  /* Ensure the text is visible against the image */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Optional: Add a shadow for better visibility */
+  }
+  
